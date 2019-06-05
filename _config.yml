@@ -1,7 +1,7 @@
 # Welcome to Jekyll!
 
 # Website settings
-title: <img src="static/assets/img/logo-white-transparent.png" width="200" height="50"/>
+title: <img src="static/assets/img/logo-white-transparent.png" width="70" height="20"/>
 description: Jack's blog,use Jekyll and github pages.
 keywords: Jack,Jalpc,blog,Jekyll,github,gh-pages
 baseurl:  /capital # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
