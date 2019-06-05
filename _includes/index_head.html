@@ -7,6 +7,9 @@
   <meta name="keywords" content="{{ site.keywords }}">
   <meta name="author" content="{{ site.author.name }}">
   <title>{{ site.title }}</title>
+  
+  {% include messenger.html %}
+  
   <!-- favicon -->
   <link rel="shortcut icon" href="{{ "/static/assets/img/favicon.ico" | prepend: site.baseurl }}">
 
@@ -31,5 +34,4 @@
       enable_page_level_ads: true
     });
   </script>
-  {% include messenger.html %}
 </head>
