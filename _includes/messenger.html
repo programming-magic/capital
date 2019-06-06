@@ -1,14 +1,12 @@
-<script type="application/javascript">
-  window.tiledeskSettings = 
-    {
-      projectid: "5cf855571c61c600170fb163",
-      preChatForm: true,
-    };
-    (function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id; //js.async=!0;
-      js.src = "https://widget.tiledesk.com/v2/tiledesk.js";
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'tiledesk-jssdk'));
+<script type="text/javascript">
+(function(){
+window['gobot'] = window['gobot'] || function(){(window['gobot'].queue = window['gobot'].queue || []).push(arguments)}
+var script = document.createElement('script');
+script.async = 1;
+script.src = 'https://www.getgobot.com/app/v1/gobot-client.js';
+var insert = document.getElementsByTagName('script')[0];
+insert.parentNode.insertBefore(script, insert);
+})()
+gobot('create', '-Lgc0rse48USPwKW9Ula');
+gobot('pageview');
 </script>
