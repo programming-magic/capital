@@ -8,7 +8,7 @@
   
 - id: projects
   i18n: nav.projects
-  name: Portofolio
+  name: Subsidiary
   tpl: projects.html
   css: project
 
