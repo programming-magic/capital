@@ -20,6 +20,12 @@
             class="header-back"
             style="background-image: url({{ '/static/assets/img/' | prepend: site.baseurl }}{{ site.data.index.banners[0].src }});  background-size: cover;"
             title="{{ site.data.index.banners[0].title }}">
+                
+                <video style="overflow:hidden;min-width:100%;
+    min-height:100%;object-fit: fill;" width="100%" height="90%" autoplay="" muted="" loop="" id="myVideo">
+  <source src="static/assets/video/banner_video.mp4" type="video/mp4">
+</video>
+                
                 <center><font size="10" style="line-height:400px;background-color:rgba(0,0,0,0.5);" color="White">Invest More, Grew More</font></center>
             </div>
         </div>
